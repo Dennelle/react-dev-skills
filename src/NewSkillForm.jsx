@@ -1,9 +1,10 @@
+import './NewSkillForm.css'
+
 export default function NewSkillForm(){
     return(
-    <form>
-          <label>Skill
+    <form className={"NewSkillForm"}>
+          <label>Skill </label>
           <input type="text" name="name" />
-          </label>
           <label>Level</label>
           <select>
           <option value="1">1</option>
